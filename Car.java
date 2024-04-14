@@ -1,4 +1,4 @@
-public class Car implements Drivable{
+public class Car implements SportCar {
     int top_acc;
     int decelerating;
     public Car(int accelerating,int top_acceleration){
@@ -15,7 +15,7 @@ public class Car implements Drivable{
     }
 
     @Override
-    public void deccelerate() {
+    public void decelerate() {
         System.out.println("Top deceleration for our car is "+ decelerating+ " m/s");
 
     }
