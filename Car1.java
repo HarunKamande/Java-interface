@@ -1,6 +1,6 @@
 public class Car1 implements SportCar,Normalcar{
 
-    //Performing Multiple inheritance through the use of interfaces
+    //Performing Multiple inheritance using interfaces
     public Car1(){}
     int normalSpeed;
     int fuelrate;
